@@ -1,0 +1,112 @@
+/*   
+	Theme Name: Solda Forte - Tecnologia em Soldagem
+	Theme URL: 
+	Description: Tema WordPress | Exclusivo - CSS, HTML, PHP e Wordpress.
+	Author: Alemaciell e João Mesquita
+	Author URI: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.color-blue {color: #0C1360;}
+.color-orange {color: #FF8800;}
+.color-green {color: #00C853;}
+.color-gray {color: #EBEBEB;}
+.color-black {color: #000;}
+.color-white {color: #fff !important;}
+
+a.color-black:hover {color: #FF8800;}
+
+.bg-blue {background-color: #0C1360;}
+.bg-blue-alternative {background-color: #252C7D;}
+.bg-orange {background-color: #FF8800;}
+.bg-green {background-color: #00C853;}
+.bg-gray {background-color: #EBEBEB;}
+
+.font-40 {font-size: 40px;}
+.font-30 {font-size: 30px;}
+.font-20 {font-size: 20px;}
+.font-18 {font-size: 18px;}
+.font-16 {font-size: 16px;}
+.font-15 {font-size: 15px;}
+.font-14 {font-size: 14px;}
+.font-13 {font-size: 13px;}
+
+.session {padding: 50px 0;}
+
+nav a.nav-link {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.img-thumbnail {height: 180px;}
+.card .btn {display: none;}
+.card:hover .btn {display: inline-block;}
+.card:hover{
+    border: 1px solid #00C853 !important;
+    transition: 0.2s;
+}
+
+.nav .nav-item:hover .dropdown-menu{display:block}
+.dropdown-toggle::after {display: none;}
+
+.dropdown-menu {
+    width: 1300px;
+    height: 300px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.breadcrumb-item a{
+    color: #999999 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb-item a:hover{color: #FF8800 !important;}
+
+#nav-descricao #collapseExample.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+}
+
+#nav-descricao #collapseExample.collapsing {
+    height: 3rem;
+}
+
+.owl-stage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.owl-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    .dropdown-menu{
+        width: 100vw;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
